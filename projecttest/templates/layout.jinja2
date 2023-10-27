@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{request.locale_name}}">
+  <head>
+ 
+
+    <title>Cookiecutter Starter project for the Pyramid Web Framework</title>
+
+
+
+  <body>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Data dari Basis wsasaswewepppData</h1>
+      <ul>
+        {% for item in data %}
+          <li>{{ item.id }} - {{ item.name }} - {{ item.value }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  </body>
+</html>
