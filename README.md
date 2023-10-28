@@ -27,7 +27,7 @@ Deskripsi proyek singkat di sini.
     Jika Anda ingin menggunakan lingkungan virtual:
 
     ```bash
-    python3 -m venv env
+    python -m venv env
     source env/bin/activate  # Untuk Linux/Mac
     .\env\Scripts\activate   # Untuk Windows
     ```
@@ -41,7 +41,7 @@ Deskripsi proyek singkat di sini.
 5. **Jalankan Aplikasi**
 
     ```bash
-    python __init__.py
+    pserve development.ini
     ```
 
     Proyek sekarang dapat diakses di http://localhost:6543.
@@ -52,15 +52,8 @@ Deskripsi cara menggunakan proyek atau aplikasi Anda.
 
 ## Fitur
 
-- Fitur 1
-- Fitur 2
-- ...
+- GET
+- POST
+- DELETE
 
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan buat *pull request*.
-
-## Struktur Proyek
-
-Jelaskan struktur direktori dan berkas proyek.
 
