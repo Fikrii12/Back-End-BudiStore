@@ -2,6 +2,12 @@
 
 Ini adalah server backend untuk digunakan pada website BudiStore untuk melihat Front End nya dapatdilihat pada https://github.com/Fikrii12/Front-End-BudiStore.git
 
+## Depedensi Yang Digunakan
+
+- Pyramid: Framework web yang digunakan.
+- pymysql: Digunakan untuk koneksi database MySQL.
+- setuptools: Digunakan di setup.py, biasanya sudah terinstal, tapi perlu di-check.
+
 ## Instalasi
 
 ### Prasyarat
