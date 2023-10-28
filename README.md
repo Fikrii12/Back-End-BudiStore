@@ -37,8 +37,10 @@
     ```bash
     pip install -r requirements.txt
     ```
+5. **Impor Data Base**
+   Impor data base uts_pwl.sql pada php myadmin tentunya anda perlu menjalankan XAMPP terlebih dahulu. buat nama database "uts_pwl"
 
-5. **Jalankan Aplikasi**
+6. **Jalankan Aplikasi**
 
     ```bash
     pserve development.ini
@@ -46,14 +48,12 @@
 
     Proyek sekarang dapat diakses di http://localhost:6543.
 
-## Penggunaan
-
-Deskripsi cara menggunakan proyek atau aplikasi Anda.
 
 ## Fitur
 
 - GET
 - POST
 - DELETE
+- POT
 
 
