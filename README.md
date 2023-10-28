@@ -1,6 +1,6 @@
-# Nama Proyek Anda
+# BudiStore
 
-Deskripsi proyek singkat di sini.
+.
 
 ## Instalasi
 
