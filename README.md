@@ -1,6 +1,6 @@
 # BudiStore
 
-Ini adalah code backend untuk digunakan pada website BudiStore untuk melihat Front End nya dapatdilihat pada https://github.com/Fikrii12/Front-End-BudiStore.git
+Ini adalah server backend untuk digunakan pada website BudiStore untuk melihat Front End nya dapatdilihat pada https://github.com/Fikrii12/Front-End-BudiStore.git
 
 ## Instalasi
 
