@@ -1,44 +1,59 @@
-projecttest
-===========
+# BudiStore
 
-Getting Started
----------------
+.
 
-- Change directory into your newly created project if not already there. Your
-  current directory should be the same as this README.txt file and setup.py.
+## Instalasi
 
-    cd projecttest
+### Prasyarat
+- Python 3.x
+- [Virtual Environment](https://docs.python.org/3/library/venv.html) (opsional)
 
-- Create a Python virtual environment, if not already created.
+### Langkah-langkah Instalasi
 
-    python3 -m venv env
+1. **Clone Repositori**
 
-- Upgrade packaging tools, if necessary.
+    ```bash
+    git clone https://github.com/username/nama-proyek.git
+    ```
 
-    env/bin/pip install --upgrade pip setuptools
+2. **Masuk ke Direktori Proyek**
 
-- Install the project in editable mode with its testing requirements.
+    ```bash
+    cd nama-proyek
+    ```
 
-    env/bin/pip install -e ".[testing]"
+3. *(Opsional) Buat dan Aktifkan Lingkungan Virtual*
 
-- Initialize and upgrade the database using Alembic.
+    Jika Anda ingin menggunakan lingkungan virtual:
 
-    - Generate your first revision.
+    ```bash
+    python -m venv env
+    source env/bin/activate  # Untuk Linux/Mac
+    .\env\Scripts\activate   # Untuk Windows
+    ```
 
-        env/bin/alembic -c development.ini revision --autogenerate -m "init"
+4. **Install Dependensi Proyek**
 
-    - Upgrade to that revision.
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-        env/bin/alembic -c development.ini upgrade head
+5. **Jalankan Aplikasi**
 
-- Load default data into the database using a script.
+    ```bash
+    pserve development.ini
+    ```
 
-    env/bin/initialize_projecttest_db development.ini
+    Proyek sekarang dapat diakses di http://localhost:6543.
 
-- Run your project's tests.
+## Penggunaan
 
-    env/bin/pytest
+Deskripsi cara menggunakan proyek atau aplikasi Anda.
 
-- Run your project.
+## Fitur
 
-    env/bin/pserve development.ini
+- GET
+- POST
+- DELETE
+
+
